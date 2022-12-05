@@ -1,7 +1,8 @@
 Source: ca-certificates
 Section: misc
 Priority: optional
-Maintainer: Julien Cristau <jcristau@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Julien Cristau <jcristau@debian.org>
 Build-Depends: debhelper-compat (= 13), po-debconf
 Build-Depends-Indep: python3, openssl, python3-cryptography
 Standards-Version: 4.5.0.2

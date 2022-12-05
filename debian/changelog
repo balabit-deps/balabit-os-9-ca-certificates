@@ -1,3 +1,12 @@
+ca-certificates (20211016ubuntu0.22.04.1) jammy-security; urgency=medium
+
+  * Add Trustcor root certificates to mozilla/blacklist.txt: (LP: #1998785)
+    - "TrustCor RootCert CA-1"
+    - "TrustCor RootCert CA-2"
+    - "TrustCor ECA-1"
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 05 Dec 2022 07:22:26 -0500
+
 ca-certificates (20211016) unstable; urgency=low
 
   [ Michael Shuler ]
