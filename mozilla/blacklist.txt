@@ -2,8 +2,5 @@
 
 # Blacklist explicitly distrusted certificates to explicitly ignore them and prevent build errors
 "Explicitly Distrust DigiNotar Root CA"
-"TrustCor RootCert CA-1"
-"TrustCor RootCert CA-2"
-"TrustCor ECA-1"
 
 # Expired CAs
