@@ -1,3 +1,78 @@
+ca-certificates (20260601~22.04.1) jammy-security; urgency=medium
+
+  * Update Mozilla certificate authority bundle to version 2.86
+    (LP: #2156786)
+    The following certificate authority was added (+):
+    + e-Szigno TLS Root CA 2023
+    The following certificate authorities were removed (-):
+    - QuoVadis Root CA 2
+    - QuoVadis Root CA 3
+    - DigiCert Assured ID Root CA
+    - DigiCert Global Root CA
+    - DigiCert High Assurance EV Root CA
+    - SwissSign Gold CA - G2
+    - SecureTrust CA
+    - Secure Global CA
+    - COMODO Certification Authority
+    - Certigna
+    - certSIGN ROOT CA
+    - AffirmTrust Commercial
+    - AffirmTrust Networking
+    - AffirmTrust Premium
+    - AffirmTrust Premium ECC
+    - TeliaSonera Root CA v1
+    - Entrust Root Certification Authority - G2
+    - Entrust Root Certification Authority - EC1
+    - Trustwave Global Certification Authority
+    - Trustwave Global ECC P256 Certification Authority
+    - Trustwave Global ECC P384 Certification Authority
+    - GLOBALTRUST 2020
+    - GTS Root R2
+    - FIRMAPROFESIONAL CA ROOT-A WEB
+    The following certificate authority was renamed (~):
+    ~ "OISTE Server Root RSA G1" (removed leading space)
+  * Update Mozilla certificate authority bundle to version 2.82
+    The following certificate authorities were added (+):
+    + TrustAsia TLS ECC Root CA
+    + TrustAsia TLS RSA Root CA
+    + SwissSign RSA TLS Root CA 2022 - 1
+    + OISTE Server Root ECC G1
+    +  OISTE Server Root RSA G1
+    The following certificate authorities were removed (-):
+    - GlobalSign Root CA
+    - Entrust.net Premium 2048 Secure Server CA
+    - Baltimore CyberTrust Root (closes: #1121936)
+    - Comodo AAA Services root
+    - XRamp Global CA Root
+    - Go Daddy Class 2 CA
+    - Starfield Class 2 CA
+    - CommScope Public Trust ECC Root-01
+    - CommScope Public Trust ECC Root-02
+    - CommScope Public Trust RSA Root-01
+    - CommScope Public Trust RSA Root-02
+  * Update Mozilla certificate authority bundle to version 2.74.
+    The following certificate authorities were added (+):
+    + D-TRUST BR Root CA 2 2023
+    + D-TRUST EV Root CA 2 2023
+    The following certificate authorities were removed (-):
+    - Entrust Root Certification Authority - G4
+    - SecureSign RootCA11
+    - Security Communication RootCA3
+    - SwissSign Silver CA - G2
+  * Update Mozilla certificate authority bundle to version 2.70.
+    The following certificate authorities were added (+):
+    + Telekom Security TLS ECC Root 2020
+    + Telekom Security TLS RSA Root 2023
+    + FIRMAPROFESIONAL CA ROOT-A WEB
+    + TWCA CYBER Root CA
+    + SecureSign Root CA12
+    + SecureSign Root CA14
+    + SecureSign Root CA15
+    The following certificate authorities were removed (-):
+    - Security Communication Root CA (closes: #1063093)
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 15 Jun 2026 12:17:29 -0400
+
 ca-certificates (20240203~22.04.1) jammy-security; urgency=medium
 
   * Update ca-certificates database to 20240203 (LP: #2081875)
