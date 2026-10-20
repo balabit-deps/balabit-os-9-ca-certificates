@@ -1,3 +1,22 @@
+ca-certificates (20260816ubuntu0.22.04.1) jammy-security; urgency=medium
+
+  * Blacklist the following CA cert due to intermediate cert compromise
+    (LP: #2171507)
+    + "emSign ECC Root CA - G3"
+  * Update Mozilla certificate authority bundle to version 2.90
+    The following certificate authorities were added (+):
+    + "SECOM TLS ECC Root CA 2024"
+    + "SECOM TLS RSA Root CA 2024"
+    + "Telia EC TLS Root CA v3"
+    + "Telia RSA TLS Root CA v3"
+    The following certificate authorities were removed (-):
+    - "Atos TrustedRoot 2011"
+    - "Entrust Root Certification Authority"
+    - "SecureSign Root CA12"
+    - "ePKI Root Certification Authority"
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 20 Oct 2026 09:03:26 -0400
+
 ca-certificates (20260601~22.04.1) jammy-security; urgency=medium
 
   * Update Mozilla certificate authority bundle to version 2.86
